@@ -44,11 +44,18 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="31"/>
                                     <color key="baseForegroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="rollButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XfA-Gr-dCF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="firstDice" destination="7VN-QC-hsu" id="Xe6-MU-xXJ"/>
+                        <outlet property="secondDice" destination="kyy-WC-Dz7" id="172-yn-F4r"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
